@@ -14,9 +14,9 @@ public:
     void setLightOn();
     void setLightOff();
     void setLight(bool on);
-    void isBlinking();
-    void isLightOn();
-    void isLightOff();
+    bool isBlinking();
+    bool isLightOn();
+    bool isLightOff();
 
 private:
     void _setLight(bool on);

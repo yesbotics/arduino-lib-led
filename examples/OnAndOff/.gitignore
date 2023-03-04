@@ -12,6 +12,10 @@ sloeber.ino.cpp
 cmake-build-debug
 *.elf
 *.hex
+/.pio
 /CMakeLists.txt
 /cmake
 *.sh
+/Makefile
+/platformio.ini
+/CMakeList*

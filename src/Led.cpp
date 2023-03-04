@@ -8,7 +8,7 @@ void Led::init(const int pin, unsigned long _blinkDelay) {
     this->_pin = pin;
     this->_blinkDelay = _blinkDelay;
     pinMode(pin, OUTPUT);
-    this->setOff();
+    this->_setLight(false);
 }
 
 // Call this in Arduino loop() function

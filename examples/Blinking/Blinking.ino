@@ -1,9 +1,9 @@
-#include <Led.h>
+#include "Led.h"
 
 const int PIN_LED = 33;
 
 // Create instance
-Led led()
+Led led;
 
 void setup() {
 	Serial.begin(57600);
